@@ -1,0 +1,43 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.watch {
+    background-color: rgb(18, 18, 20);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch-box {
+    background-color: rgba(41, 41, 46, 0.32);
+    display: flex;
+    border-radius: 10px;
+}
+
+.watch-box section {
+    width: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(41, 41, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.watch-box section span {
+    font-size: 80px;
+    color: rgb(124, 98, 212);
+}
+
+.watch-box section p {
+    font-size: 22px;
+    color: rgba(125, 98, 212, 0.533);
+}
